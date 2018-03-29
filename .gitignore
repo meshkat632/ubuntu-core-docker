@@ -1,0 +1,40 @@
+#Eclipse project files
+.classpath
+.project
+.settings
+.metadata
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#binary directories
+bin
+target
+lib
+build
+.gradle/
+pom.xml.versionsBackup
+*.class
+
+# vagrant stuff
+.vagrant/
+
+#gradle stuff
+gradle.properties
+/gradle.properties
+
+#Test log/binary directories
+/TestRuns
+/test/test-output
+
+#Other stuff
+/repo
+.externalToolBuilders/
+*.vdi
+/buildSrc/scripts
+
+# custom provisioning
+/custom
